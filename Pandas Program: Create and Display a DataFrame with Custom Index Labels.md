@@ -1,4 +1,4 @@
-![447264197-ceeea48f-07de-466e-9889-40765885e55a](https://github.com/user-attachments/assets/042c7e76-f368-4bbe-bb08-ee82cae0d5da)# Pandas Program: Create and Display a DataFrame with Custom Index Labels
+# Pandas Program: Create and Display a DataFrame with Custom Index Labels
 
 ## 🎯 Aim
 
