@@ -1,4 +1,4 @@
-# Pandas Program: Create and Display a DataFrame with Custom Index Labels
+![447264197-ceeea48f-07de-466e-9889-40765885e55a](https://github.com/user-attachments/assets/042c7e76-f368-4bbe-bb08-ee82cae0d5da)# Pandas Program: Create and Display a DataFrame with Custom Index Labels
 
 ## 🎯 Aim
 
@@ -17,8 +17,23 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd 
+import numpy as np 
+exam_data  = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 
+'Kevin', 'Jonas'], 
+'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19], 
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1], 
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']} 
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'] 
+df = pd.DataFrame(exam_data , index=labels) 
+print(df)
+```
 
 ## Output
+![447264197-ceeea48f-07de-466e-9889-40765885e55a](https://github.com/user-attachments/assets/9329f70a-0bc2-4b3e-a276-088f432ae570)
+
+
 
 ## Result
+Thus,the program has been executed successfully.
